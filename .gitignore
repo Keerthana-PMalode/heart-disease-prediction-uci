@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python environments
+*.egg-info/
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Large generated files
+*.pkl
+*.joblib
+
+# Generated outputs
+*.log
+
+# Dataset source files
+data/raw/
+data/processed/
+data/heart_disease.csv
