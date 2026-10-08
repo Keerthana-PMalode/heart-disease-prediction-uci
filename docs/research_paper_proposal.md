@@ -83,7 +83,7 @@ The studies include:
 13. Ali et al. (2019)
 14. Al-Makhadmeh and Tolba (2019)
 15. Tougui, Jilbab and El Mhamdi (2020)
-16. Khan et al. (2020)
+16. Khan et al. (2025)
 17. Kavitha et al. (2021)
 18. Bharti et al. (2021)
 19. Rani et al. (2021)
