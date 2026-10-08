@@ -55,19 +55,13 @@ XGBoost was evaluated using the same train/test methodology and preprocessing de
 | Specificity | 0.8485 | 0.8485 |
 | F1 | 0.8814 | **0.9000** |
 | ROC-AUC | **0.9665** | 0.9545 |
-One technical point
-The explanation is mathematically correct:
+For the cross-validation result, you only need something like:
 
-- ddof=0 → population SD → 0.0330
-- ddof=1 → sample SD → 0.0369
+### Five-fold cross-validation
 
-Both use the `same five fold ROC-AUC values`:
+The five-fold ROC-AUC values were 0.9080, 0.8367, 0.8427, 0.9056, and 0.8392, giving a mean ROC-AUC of 0.8664. Using `ddof=0`, the corresponding standard deviation was 0.0330.
 
-- 0.9080, 0.8367, 0.8427, 0.9056, 0.8392
-
-and both produce the same mean:
-
-- 0.8664
+The standard deviation convention is reported explicitly because using `ddof=1` would instead give 0.0369. The reported value of 0.0330 treats the five observed folds as the complete set of folds being summarized.
 
 ## 3. Confusion Matrices
 
