@@ -1,0 +1,6 @@
+model,fold,roc_auc
+XGBoost,1,0.9080
+XGBoost,2,0.8367
+XGBoost,3,0.8427
+XGBoost,4,0.9056
+XGBoost,5,0.8392

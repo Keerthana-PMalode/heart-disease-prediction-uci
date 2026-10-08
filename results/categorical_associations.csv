@@ -1,0 +1,9 @@
+feature,test,chi_square,degrees_of_freedom,p_value,cramers_v_bias_corrected,p_fdr,significant_fdr,simulations,random_state
+sex,Pearson chi-square,22.0426,1,<0.001,0.2639,<0.001,true,,
+cp,Pearson chi-square,81.8158,3,<0.001,0.5108,<0.001,true,,
+fbs,Pearson chi-square,0.0771,1,0.7813,0.0000,0.7813,false,,
+restecg,Monte-Carlo chi-square,10.0515,2,0.0044,0.1632,0.0057,true,10000,42
+exang,Pearson chi-square,54.6864,1,<0.001,0.4216,<0.001,true,,
+slope,Pearson chi-square,45.7846,2,<0.001,0.3807,<0.001,true,,
+ca,Pearson chi-square,71.8431,3,<0.001,0.4806,<0.001,true,,
+thal,Pearson chi-square,83.2895,2,<0.001,0.5205,<0.001,true,,

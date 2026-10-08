@@ -1,0 +1,6 @@
+feature,test,U,rank_biserial,p_value,p_fdr,significant_fdr
+age,Mann-Whitney U,8274.5,-0.2740,<0.001,0.0001,true
+trestbps,Mann-Whitney U,9710.0,-0.1481,0.0260,0.0307,true
+chol,Mann-Whitney U,9798.5,-0.1403,0.0354,0.0383,true
+thalach,Mann-Whitney U,16989.5,0.4906,<0.001,<0.001,true
+oldpeak,Mann-Whitney U,6037.0,-0.4703,<0.001,<0.001,true
